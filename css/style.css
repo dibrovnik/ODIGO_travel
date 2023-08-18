@@ -157,3 +157,36 @@ margin-bottom: 59px;
   background: #1767d1;
 }     
 /* Intro styles end */
+
+/* Benefits styles start */
+.benefits__wrap{
+  max-width: 1262px;
+  background-color: #fff;
+  margin: 0 auto;
+  background: #FFF;
+  box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
+  position: relative;
+}
+.benefits__title{
+  color: #102746;
+  font-family: Lato;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 93px 100px 88px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-100%);
+  background-color: #fff;
+  width: 100%;
+
+}
+.benefits__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 55px;
+}
+
+/* Benefits styles end */
