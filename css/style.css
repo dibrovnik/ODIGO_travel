@@ -1,0 +1,159 @@
+/* lato-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* lato-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+  .item{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    padding: 20px;
+  }
+
+  body{
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #102746;
+  }
+
+  .wrapper{
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+/* Header styles start */
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+  }
+  .header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+  }
+  
+  .header_list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header_item{
+    margin-right: 82px;
+  }
+  
+  .header_item:last-child{
+    margin-right: 0px;
+  }
+
+  .header_link{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+  }
+  .header_link:hover, .header_link:focus, .header_link:active{
+    opacity: 0.75;
+  }
+  /* Header styles end */
+
+  
+/* Header styles end */
+
+/* Intro styles start */
+.intro{
+
+    min-height: 100vh;
+    background: url(/img/intro_bg.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 263px;
+}
+
+.intro_title{
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: white;
+  max-width: 619px;
+  margin-bottom: 22px;
+}
+.intro_subtitle{
+  color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+max-width: 546px;
+margin-bottom: 59px;
+}
+
+.search-form_info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-form_field{
+ background-color: transparent;
+ background: url(../img/svg/circle-icon.svg) no-repeat left 6px;
+ background-size: 20px;
+ border: 0;
+ border-bottom: 2px solid #BFC0C5;
+ margin-right: 60px;
+ width: 297px;
+ padding-left: 43px;
+ padding-bottom: 22px;
+ font-size: 18px;
+ color: white;
+
+}
+.search-form_field::placeholder{
+  color: #FFF;
+}
+
+.search-form_submit{
+  padding: 15px 39px ;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  background: #1B7DFF;
+  border: 0;
+}
+
+.search-form_submit:hover, .search-form_submit:focus, .search-form_submit:active{
+  background: #1767d1;
+}     
+/* Intro styles end */
